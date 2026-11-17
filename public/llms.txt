@@ -1,0 +1,80 @@
+# Kinetix Scholar
+> https://kinetix-scholar.vercel.app/
+
+## Summary
+
+Kinetix Scholar is a free, no-login, no-backend research hub for students,
+academics, and independent researchers. It provides curated directories of
+real AI-assisted research tools, direct links to official publisher LaTeX
+and Word templates, copy-ready academic writing prompts, an interactive
+Boolean/PICO search-string builder, and a research lifecycle workflow guide.
+
+No registration required. No data is collected. All tool links point to
+third-party services; Kinetix Scholar does not host or operate any of them.
+
+---
+
+## Routes
+
+### / — Homepage
+Overview of the site, featured tools, goal-based tool recommendations
+(original paper, systematic review, PhD thesis, patent, book chapter),
+and a rotating Scientific Discovery Chronicle panel.
+
+### /ai-research-tools — AI Research Tools Directory
+A curated, hand-written directory of real research tools organised into
+12 categories: Literature Discovery, Literature Mapping, Systematic Review,
+PDF & Paper Analysis, Academic Writing, Thesis & Patents, Citations &
+References, Data & Statistics, Coding & ML, Visualization & Diagrams,
+Journal & Conference Finders, and Datasets & Repositories.
+Includes keyword search, category filter, usage-ranked sorting
+(localStorage), and bookmark/save functionality.
+
+### /academic-templates — Academic Templates Hub
+Direct links to official Overleaf and publisher download pages for
+peer-reviewed manuscript templates: IEEE Conference (IEEEtran), IEEE
+Transactions, ACM Primary Article, Springer Nature (sn-jnl), Springer LNCS,
+Elsevier CAS, PRISMA 2020 Systematic Review, ACM Computing Surveys /
+IEEE COMST Comprehensive Survey, General Narrative Review, Springer Book
+Chapter (svmult), Elsevier Book Chapter, Universal PhD/Masters Thesis, and
+USPTO/WIPO Patent Specification. Each entry lists the publisher, format
+badges, and the required manuscript sections.
+
+### /academic-prompt-vault — Academic Prompt Vault
+Copy-ready prompt templates for use with any AI assistant (ChatGPT, Claude,
+Perplexity, Google NotebookLM, etc.). Organised across six workflow stages:
+(1) Topic & Free Dataset Finder, (2) Gap & Literature Synthesis,
+(3) Experiment & Code Generation, (4) Section-by-Section Paper Drafting,
+(5) Paraphrasing & Source Synthesis, (6) Reviewer Response & Polish.
+Prompts include fill-in placeholders (domain, venue, level). Users supply
+their own AI tool; Kinetix Scholar does not operate any AI service.
+
+### /research-lab-pico-builder — Research Lab & PICO Builder
+Two interactive utilities:
+- Boolean/PICO Query Synthesizer: generates formatted search strings for
+  Scopus, Web of Science, PubMed, and Google Scholar from user-supplied
+  Population, Intervention, Outcome, and Exclusion terms with a year range.
+- Pre-Submission Manuscript Readiness Auditor: a 12-item checklist
+  (title/abstract quality, citation lineage, statistical rigour, figures,
+  open-science statements, formatting) with a live readiness score stored
+  in localStorage.
+Also includes a Research Stack Architect panel with four preset pipelines
+(Q1 Empirical Paper, PRISMA Systematic Review, PhD Dissertation, Patent
+Filing) showing recommended tools and their roles at each stage.
+
+### /research-lifecycle-workflow — Research Lifecycle Workflow
+A nine-stage annotated guide to the full academic research lifecycle:
+(01) Idea & Prior Art, (02) Literature Search, (03) Systematic Review,
+(04) Research Gap & Question, (05) Methodology & Power, (06) Experiments
+& Code, (07) Data Analysis & Plots, (08) Manuscript & LaTeX Writing,
+(09) Journal Selection & Publication. Each stage names the recommended
+free tools from the directory.
+
+---
+
+## What this site is not
+
+- Not an AI service. No language model runs on this site.
+- Not a plagiarism checker or AI-detection bypass tool.
+- Not affiliated with IEEE, Springer, Elsevier, ACM, or any publisher.
+- Not a data broker. No accounts, no tracking beyond anonymous localStorage.
