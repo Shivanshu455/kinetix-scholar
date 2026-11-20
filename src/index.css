@@ -1,0 +1,82 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --font-serif: "Source Serif 4", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --color-page: #faf9f6;
+  --color-surface: #ffffff;
+  --color-ink: #1a1a1a;
+  --color-ink-soft: #5c5c5c;
+  --color-line: #e4e2dc;
+
+  --color-navy: #14274e;
+  --color-navy-soft: #cdd6e8;
+
+  --color-blue: #1f4e9c;
+  --color-blue-hover: #173b78;
+  --color-blue-tint: #e9f0fb;
+
+  --color-amber: #f0a81e;
+  --color-amber-tint: #fdf3dc;
+  --color-amber-ink: #8a4b08;
+
+  --color-teal-tint: #e3f3f1;
+  --color-teal-ink: #0f5f59;
+
+  --color-green-tint: #e4f4e8;
+  --color-green-ink: #166534;
+
+  --color-coral-tint: #fbe9e6;
+  --color-coral-ink: #9b1c1c;
+
+  /* Aliases for compatibility */
+  --color-bg: #faf9f6;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #5c5c5c;
+  --color-border: #e4e2dc;
+  --color-border-hover: #b8b5ad;
+  --color-accent: #1f4e9c;
+  --color-accent-hover: #173b78;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-page);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-page);
+    color: var(--color-ink);
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--color-ink);
+  }
+
+  a {
+    color: var(--color-blue);
+    transition: color 150ms ease, border-color 150ms ease;
+  }
+
+  a:hover {
+    color: var(--color-blue-hover);
+  }
+
+  button, input, select, textarea {
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 2px;
+  }
+}

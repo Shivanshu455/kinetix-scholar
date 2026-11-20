@@ -30,6 +30,13 @@
   </url>
 
   <url>
+    <loc>https://kinetix-scholar.vercel.app/conferences-and-journals</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
     <loc>https://kinetix-scholar.vercel.app/research-lab-pico-builder</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
